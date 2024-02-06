@@ -4,9 +4,9 @@
 
 When a user visits a route:
 
-* A static route shell is served, ensuring a fast initial load.
-* The shell leaves holes where dynamic content will load in asynchronous.
-* The async holes are streamed in parallel, reducing the overall load time of the page.
+- A static route shell is served, ensuring a fast initial load.
+- The shell leaves holes where dynamic content will load in asynchronous.
+- The async holes are streamed in parallel, reducing the overall load time of the page.
 
 This is different from how your application behaves today, where entire routes are either entirely static or dynamic.
 
