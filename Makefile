@@ -7,6 +7,7 @@ help: ## List all the command helps.
 .PHONY: lint
 lint: ## Check linter.
 	@npm run prettier
+	@npm run lint
 
 .PHONY: dev
 dev: ## Run dev server.
